@@ -1,6 +1,6 @@
 This program is intended to find the optimal way of scaling a pair of PSMC demographic history curves relative to one another such that contemporaneous slope differences are minimized, presumably reflecting the true parallel histories of species expected a priori to have been ecologically interdependent or under the same environmental pressures. See Hecht, Thompson and Rosenthal (2018) for a fuller explanation.
 
-C-PSMC.py takes as input the PSMC output files for two samples at a time. In short, one of the PSMC curves is held constant while the fit of the other is scored by aligning it to the first at a range of points for a range of scalar values. There are eight variables for the user to specify for each analysis by editing C-PSMC.py directly. These are
+C-PSMC.py takes as input the PSMC output files for two samples at a time. In short, one of the PSMC curves is held constant while the fit of the other is scored by aligning it to the first at a range of points for a range of scalar values. Sample files can be found in this directory, and are already plugged in with appropriate variables in C-PSMC.py. There are eight variables for the user to specify for each analysis by editing C-PSMC.py directly. These are:
 
 ______________________________________
 
