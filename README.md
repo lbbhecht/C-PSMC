@@ -3,6 +3,7 @@ This program is intended to find the optimal way of scaling a pair of PSMC demog
 C-PSMC.py takes as input the PSMC output files for two samples at a time. In short, one of the PSMC curves is held constant while the fit of the other is scored by aligning it to the first at a range of points for a range of scalar values. Sample files can be found in this directory, and are already plugged in with appropriate variables in C-PSMC.py. 
 
 There are eight variables for the user to specify for each analysis, which are explained in detail below. These are set by editing C-PSMC.py directly. This can be done using any plain text editor, but one designed for script editing, like Sublime Text, is recommended. Once the variables are set, run the program like any other Python script. The following commands should work on any Unix system:
+
 cd */C-PSMC-master
 python C-PSMC.py
 
