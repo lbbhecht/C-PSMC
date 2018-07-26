@@ -6,7 +6,7 @@ There are eight variables for the user to specify for each analysis, which are e
 
 > cd */C-PSMC-master
 
-> python C-PSMC.py
+python C-PSMC.py
 
 ______________________________________
 
