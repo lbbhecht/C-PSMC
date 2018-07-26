@@ -5,7 +5,7 @@ C-PSMC.py takes as input the PSMC output files for two samples at a time. In sho
 There are eight variables for the user to specify for each analysis, which are explained in detail below. These are set by editing C-PSMC.py directly. This can be done using any plain text editor, but one designed for script editing, like Sublime Text, is recommended. Once the variables are set, run the program like any other Python script. The following commands should work on any Unix system:
 
 > cd */C-PSMC-master
-python C-PSMC.py
+> python C-PSMC.py
 
 ______________________________________
 
