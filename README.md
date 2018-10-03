@@ -4,6 +4,7 @@ C-PSMC.py takes as input the PSMC output files (.psmc) for two samples at a time
 
 
 **USAGE**
+
 The only dependencies are Python (v2.7+) and the Numpy library for Python. The required variables are the file names (without extension) of the .psmc files for <independent_sample> and <dependent_sample>, and the desired number of top results <top_N> (default 5) sorted by slope differential. These are specified as command-line arguments:
 
 > python C-PSMC.py <independent_sample> <dependent_sample> <top_N>
@@ -15,6 +16,7 @@ NOTE: The folder 'C-PSMC_original' contains the code used in the 2018 paper; how
 
 
 **Tips**
+
 Because of how the curves are compared and inflection points are identified, it is recommended (but not required) that PSMC be run with no linked time intervals ('-p' option in PSMC). C-PSMC should run ok regardless, but the scoring will be less discriminating and there may be false-positive inflection point calls.
 
 
