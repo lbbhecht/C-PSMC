@@ -4,9 +4,9 @@ C-PSMC.py takes as input the PSMC output files (.psmc) for two samples at a time
 
 **USAGE**
 
-The only dependencies are Python (v2.7+) and the Numpy library for Python. The required variables are the file names (without extension) of the .PSMC output files for <independent_sample> and <dependent_sample>, and the desired number of top results <topN> (default 5) sorted by slope differential. These are specified as command-line arguments:
+The only dependencies are Python (v2.7+) and the Numpy library for Python. The required variables are the file names (without extension) of the .PSMC output files for <independent_sample> and <dependent_sample>, and the desired number of top results <top_N> (default 5) sorted by slope differential. These are specified as command-line arguments:
 
-> python C-PSMC.py <independent_sample> <dependent_sample> <topN>
+> python C-PSMC.py <independent_sample> <dependent_sample> <top_N>
 
 
 NOTE: The folder 'C-PSMC_original' contains the code used in the 2018 paper; however, we recommend using the version of C-PSMC.py published in the main directory for major improvements in run speed and ease of setup. A separate README can be found in C-PSMC_original.
